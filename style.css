@@ -1,8 +1,31 @@
 .header-flex-container {
     display: flex;
+    justify-content: space-between;
+    padding: 0 20px; /* optional spacing around edges */
 }
 
-.nav-bar-flex-container {
+.header-logo {
     background: steelblue;
+    border: 4px solid pink;
+    color: bisque;
     height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.header-flex-container div {
+    flex: 1 1 auto;
+    height: 100px;  
+    color: bisque;
+    height: 100px;
+    width: 50px;
+    margin: 10px;
 }
+
+.header-flex-container .header-logo {
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-right: 200px;
+}
+
