@@ -1,0 +1,8 @@
+.header-flex-container {
+    display: flex;
+}
+
+.nav-bar-flex-container {
+    background: steelblue;
+    height: 100px;
+}
